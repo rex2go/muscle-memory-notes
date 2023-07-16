@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+
+@font-face {
+  font-family: "Fredoka One";
+  src: url(assets/fonts/FredokaOne-Regular.ttf) format("truetype");
+}
+
+@tailwind base;
+@tailwind utilities;
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Asap", sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: rgb(243 244 246);
+}
+
+#root {
+  min-height: 100vh;
+  width: 100vw;
+}
