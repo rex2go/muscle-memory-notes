@@ -9,4 +9,5 @@ export default defineConfig({
   server: {
     host: true,
   },
+  base: "/muscle-memory-notes/",
 });
