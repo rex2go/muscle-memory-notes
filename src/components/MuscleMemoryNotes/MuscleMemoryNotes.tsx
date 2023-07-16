@@ -1,15 +1,11 @@
-import { Vex } from "vexflow";
-const { Renderer, Stave } = Vex.Flow;
 import metronomeSoundSrc from "../../assets/sounds/metronome-85688.mp3";
 import { useMetronome } from "../../hooks/use-metronome";
 import { Howl } from "howler";
 import { useMuscleMemoryNotes } from "./MuscleMemoryNotesProvider";
 import { MuscleMemoryNotesSettings } from "./MuscleMemoryNotesSettings";
 import { MuscleMemoryNotesBeat } from "./MuscleMemoryNotesBeat";
-import { MuscleMemoryNotesSheet } from "./MuscleMemoryNotesSheet/MuscleMemoryNotesSheet";
+import { MuscleMemoryNotesSheet } from "./MuscleMemoryNotesSheet";
 import { MuscleMemoryNotesNoteReveal } from "./MuscleMemoryNotesNoteReveal";
-
-
 
 const sound = new Howl({
   src: [metronomeSoundSrc],
